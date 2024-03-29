@@ -11,7 +11,6 @@ import {
   Text,
   useColorModeValue,
 } from "@chakra-ui/react"
-import type React from "react"
 import { useState } from "react"
 import { type SubmitHandler, useForm } from "react-hook-form"
 import { useMutation, useQueryClient } from "react-query"
@@ -24,8 +23,9 @@ import {
 } from "../../client"
 import useAuth from "../../hooks/useAuth"
 import useCustomToast from "../../hooks/useCustomToast"
+import { emailPattern } from "../../utils"
 
-const UserInformation: React.FC = () => {
+const UserInformation = () => {
   const queryClient = useQueryClient()
   const color = useColorModeValue("inherit", "ui.white")
   const showToast = useCustomToast()
@@ -114,10 +114,7 @@ const UserInformation: React.FC = () => {
                 id="email"
                 {...register("email", {
                   required: "Email is required",
-                  pattern: {
-                    value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
-                    message: "Invalid email address",
-                  },
+                  pattern: emailPattern,
                 })}
                 type="email"
                 size="md"

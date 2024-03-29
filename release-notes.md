@@ -16,6 +16,10 @@
 
 ### Refactors
 
+* 🎨 Format imports. PR [#1140](https://github.com/tiangolo/full-stack-fastapi-template/pull/1140) by [@alejsdev](https://github.com/alejsdev).
+* ♻️ Refactor and remove `React.FC`. PR [#1139](https://github.com/tiangolo/full-stack-fastapi-template/pull/1139) by [@alejsdev](https://github.com/alejsdev).
+* ♻️ Add email pattern and refactor in frontend. PR [#1138](https://github.com/tiangolo/full-stack-fastapi-template/pull/1138) by [@alejsdev](https://github.com/alejsdev).
+* 🥅 Set up Sentry for FastAPI applications. PR [#1136](https://github.com/tiangolo/full-stack-fastapi-template/pull/1136) by [@estebanx64](https://github.com/estebanx64).
 * 🔥 Remove deprecated Docker Compose version key. PR [#1129](https://github.com/tiangolo/full-stack-fastapi-template/pull/1129) by [@tiangolo](https://github.com/tiangolo).
 * 🎨 Format with Biome . PR [#1097](https://github.com/tiangolo/full-stack-fastapi-template/pull/1097) by [@alejsdev](https://github.com/alejsdev).
 * 🎨 Update quote style in biome formatter. PR [#1095](https://github.com/tiangolo/full-stack-fastapi-template/pull/1095) by [@alejsdev](https://github.com/alejsdev).

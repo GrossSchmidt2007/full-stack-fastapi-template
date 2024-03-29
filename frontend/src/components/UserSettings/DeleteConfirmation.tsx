@@ -20,7 +20,7 @@ interface DeleteProps {
   onClose: () => void
 }
 
-const DeleteConfirmation: React.FC<DeleteProps> = ({ isOpen, onClose }) => {
+const DeleteConfirmation = ({ isOpen, onClose }: DeleteProps) => {
   const queryClient = useQueryClient()
   const showToast = useCustomToast()
   const cancelRef = React.useRef<HTMLButtonElement | null>(null)

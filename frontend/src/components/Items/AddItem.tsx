@@ -12,7 +12,6 @@ import {
   ModalHeader,
   ModalOverlay,
 } from "@chakra-ui/react"
-import type React from "react"
 import { type SubmitHandler, useForm } from "react-hook-form"
 import { useMutation, useQueryClient } from "react-query"
 
@@ -24,7 +23,7 @@ interface AddItemProps {
   onClose: () => void
 }
 
-const AddItem: React.FC<AddItemProps> = ({ isOpen, onClose }) => {
+const AddItem = ({ isOpen, onClose }: AddItemProps) => {
   const queryClient = useQueryClient()
   const showToast = useCustomToast()
   const {
