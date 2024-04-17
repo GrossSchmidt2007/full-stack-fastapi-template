@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+* 🔧 Ignore `src/routeTree.gen.ts` in biome. PR [#1175](https://github.com/tiangolo/full-stack-fastapi-template/pull/1175) by [@patrick91](https://github.com/patrick91).
+
 ### Features
 
 * ✨ Add support for deploying multiple environments (staging, production) to the same server. PR [#1128](https://github.com/tiangolo/full-stack-fastapi-template/pull/1128) by [@tiangolo](https://github.com/tiangolo).
@@ -15,6 +17,7 @@
 
 ### Refactors
 
+* 🚸 Use `useSuspenseQuery` to fetch members and show skeleton. PR [#1174](https://github.com/tiangolo/full-stack-fastapi-template/pull/1174) by [@patrick91](https://github.com/patrick91).
 * 🎨 Format Utils. PR [#1173](https://github.com/tiangolo/full-stack-fastapi-template/pull/1173) by [@alejsdev](https://github.com/alejsdev).
 * ✨ Use suspense for items page. PR [#1167](https://github.com/tiangolo/full-stack-fastapi-template/pull/1167) by [@patrick91](https://github.com/patrick91).
 * 🚸 Mark login field as required. PR [#1166](https://github.com/tiangolo/full-stack-fastapi-template/pull/1166) by [@patrick91](https://github.com/patrick91).
