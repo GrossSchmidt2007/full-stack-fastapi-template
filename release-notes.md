@@ -27,6 +27,7 @@
 
 ### Refactors
 
+* 🔥 Remove `USERS_OPEN_REGISTRATION` config, make registration enabled by default. PR [#1274](https://github.com/tiangolo/full-stack-fastapi-template/pull/1274) by [@alejsdev](https://github.com/alejsdev).
 * 🔧 Reuse database url from config in alembic setup. PR [#1229](https://github.com/tiangolo/full-stack-fastapi-template/pull/1229) by [@patrick91](https://github.com/patrick91).
 * 🔧 Update Playwright config and tests to use env variables. PR [#1266](https://github.com/tiangolo/full-stack-fastapi-template/pull/1266) by [@alejsdev](https://github.com/alejsdev).
 * ♻️ Edit refactor db models to use UUID's instead of integer ID's. PR [#1259](https://github.com/tiangolo/full-stack-fastapi-template/pull/1259) by [@estebanx64](https://github.com/estebanx64).
@@ -77,6 +78,7 @@
 
 ### Upgrades
 
+* ⬆️ Update SQLModel to version `>=0.0.21`. PR [#1275](https://github.com/tiangolo/full-stack-fastapi-template/pull/1275) by [@alejsdev](https://github.com/alejsdev).
 * ⬆️ Upgrade Traefik. PR [#1241](https://github.com/tiangolo/full-stack-fastapi-template/pull/1241) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Bump requests from 2.31.0 to 2.32.0 in /backend. PR [#1211](https://github.com/tiangolo/full-stack-fastapi-template/pull/1211) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆️ Bump jinja2 from 3.1.3 to 3.1.4 in /backend. PR [#1196](https://github.com/tiangolo/full-stack-fastapi-template/pull/1196) by [@dependabot[bot]](https://github.com/apps/dependabot).
@@ -104,6 +106,7 @@
 
 ### Internal
 
+* 👷 Update issue-manager.yml GitHub Action permissions. PR [#1278](https://github.com/tiangolo/full-stack-fastapi-template/pull/1278) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Bump setuptools from 69.1.1 to 70.0.0 in /backend. PR [#1255](https://github.com/tiangolo/full-stack-fastapi-template/pull/1255) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆️ Bump certifi from 2024.2.2 to 2024.7.4 in /backend. PR [#1250](https://github.com/tiangolo/full-stack-fastapi-template/pull/1250) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆️ Bump urllib3 from 2.2.1 to 2.2.2 in /backend. PR [#1235](https://github.com/tiangolo/full-stack-fastapi-template/pull/1235) by [@dependabot[bot]](https://github.com/apps/dependabot).
