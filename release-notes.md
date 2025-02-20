@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.8.0
+
 ### Features
 
 * 🛂 Migrate to Chakra UI v3 . PR [#1496](https://github.com/fastapi/full-stack-fastapi-template/pull/1496) by [@alejsdev](https://github.com/alejsdev).
@@ -14,6 +16,8 @@
 
 ### Refactors
 
+* ♻️ Redirect the user to `login` if we get 401/403. PR [#1501](https://github.com/fastapi/full-stack-fastapi-template/pull/1501) by [@alejsdev](https://github.com/alejsdev).
+* 🐛 Refactor reset password test to create normal user instead of using super user. PR [#1499](https://github.com/fastapi/full-stack-fastapi-template/pull/1499) by [@alejsdev](https://github.com/alejsdev).
 * ♻️ Replace email types from `str` to `EmailStr` in `config.py`. PR [#1492](https://github.com/fastapi/full-stack-fastapi-template/pull/1492) by [@jpizquierdo](https://github.com/jpizquierdo).
 * 🔧 Remove unused context from router creation. PR [#1498](https://github.com/fastapi/full-stack-fastapi-template/pull/1498) by [@alejsdev](https://github.com/alejsdev).
 * ♻️ Remove redundant item deletion code leveraging cascade delete. PR [#1481](https://github.com/fastapi/full-stack-fastapi-template/pull/1481) by [@nauanbek](https://github.com/nauanbek).
