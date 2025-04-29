@@ -16,6 +16,15 @@
 
 ### Internal
 
+* ⬆ Bump axios from 1.8.2 to 1.9.0 in /frontend. PR [#1592](https://github.com/fastapi/full-stack-fastapi-template/pull/1592) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump react-icons from 5.4.0 to 5.5.0 in /frontend. PR [#1581](https://github.com/fastapi/full-stack-fastapi-template/pull/1581) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump jinja2 from 3.1.4 to 3.1.6 in /backend. PR [#1591](https://github.com/fastapi/full-stack-fastapi-template/pull/1591) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump pyjwt from 2.9.0 to 2.10.1 in /backend. PR [#1588](https://github.com/fastapi/full-stack-fastapi-template/pull/1588) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump httpx from 0.27.2 to 0.28.1 in /backend. PR [#1587](https://github.com/fastapi/full-stack-fastapi-template/pull/1587) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump form-data from 4.0.0 to 4.0.2 in /frontend. PR [#1578](https://github.com/fastapi/full-stack-fastapi-template/pull/1578) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump @biomejs/biome from 1.6.1 to 1.9.4 in /frontend. PR [#1582](https://github.com/fastapi/full-stack-fastapi-template/pull/1582) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆️ Update Dependabot configuration to target the backend directory for Python uv updates. PR [#1577](https://github.com/fastapi/full-stack-fastapi-template/pull/1577) by [@alejsdev](https://github.com/alejsdev).
+* 🔧 Update Dependabot config. PR [#1576](https://github.com/fastapi/full-stack-fastapi-template/pull/1576) by [@alejsdev](https://github.com/alejsdev).
 * Bump @babel/runtime from 7.23.9 to 7.27.0 in /frontend. PR [#1570](https://github.com/fastapi/full-stack-fastapi-template/pull/1570) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * Bump esbuild, @vitejs/plugin-react-swc and vite in /frontend. PR [#1571](https://github.com/fastapi/full-stack-fastapi-template/pull/1571) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * Bump axios from 1.7.4 to 1.8.2 in /frontend. PR [#1568](https://github.com/fastapi/full-stack-fastapi-template/pull/1568) by [@dependabot[bot]](https://github.com/apps/dependabot).
