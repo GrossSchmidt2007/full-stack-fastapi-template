@@ -19,6 +19,7 @@
 
 ### Upgrades
 
+* ⬆️ Upgrade Biome to the latest version. PR [#1861](https://github.com/fastapi/full-stack-fastapi-template/pull/1861) by [@alejsdev](https://github.com/alejsdev).
 * ⬆️ Update TansTack Router dependencies. PR [#1853](https://github.com/fastapi/full-stack-fastapi-template/pull/1853) by [@alejsdev](https://github.com/alejsdev).
 * ⬆️ Bump @tanstack/react-query from 5.28.14 to 5.87.1. PR [#1852](https://github.com/fastapi/full-stack-fastapi-template/pull/1852) by [@alejsdev](https://github.com/alejsdev).
 * ⬆ Bump @chakra-ui/react from 3.8.0 to 3.26.0 in /frontend. PR [#1796](https://github.com/fastapi/full-stack-fastapi-template/pull/1796) by [@dependabot[bot]](https://github.com/apps/dependabot).
@@ -32,6 +33,10 @@
 
 ### Internal
 
+* ⬆ Bump pydantic from 2.9.2 to 2.11.7 in /backend. PR [#1864](https://github.com/fastapi/full-stack-fastapi-template/pull/1864) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 🔧 Update coverage configuration and simplify test script. PR [#1867](https://github.com/fastapi/full-stack-fastapi-template/pull/1867) by [@alejsdev](https://github.com/alejsdev).
+* 🔧 Add T201 rule to ruff linting configuration to disallow print statements. PR [#1865](https://github.com/fastapi/full-stack-fastapi-template/pull/1865) by [@alejsdev](https://github.com/alejsdev).
+* ⬆ Bump @tanstack/react-query-devtools from 5.87.1 to 5.87.3 in /frontend. PR [#1863](https://github.com/fastapi/full-stack-fastapi-template/pull/1863) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump vite from 6.3.4 to 7.1.5 in /frontend. PR [#1857](https://github.com/fastapi/full-stack-fastapi-template/pull/1857) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump @types/node from 22.15.3 to 24.3.1 in /frontend. PR [#1854](https://github.com/fastapi/full-stack-fastapi-template/pull/1854) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump @vitejs/plugin-react-swc from 3.9.0 to 4.0.1 in /frontend. PR [#1856](https://github.com/fastapi/full-stack-fastapi-template/pull/1856) by [@dependabot[bot]](https://github.com/apps/dependabot).
