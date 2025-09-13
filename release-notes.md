@@ -19,6 +19,12 @@
 
 ### Upgrades
 
+* ⬆ Bump @tanstack/router-devtools from 1.131.41 to 1.131.42 in /frontend. PR [#1881](https://github.com/fastapi/full-stack-fastapi-template/pull/1881) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump @tanstack/router-plugin from 1.131.39 to 1.131.41 in /frontend. PR [#1879](https://github.com/fastapi/full-stack-fastapi-template/pull/1879) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump @tanstack/react-query-devtools from 5.87.3 to 5.87.4 in /frontend. PR [#1876](https://github.com/fastapi/full-stack-fastapi-template/pull/1876) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump axios from 1.11.0 to 1.12.0 in /frontend. PR [#1878](https://github.com/fastapi/full-stack-fastapi-template/pull/1878) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump @tanstack/router-devtools from 1.131.40 to 1.131.41 in /frontend. PR [#1877](https://github.com/fastapi/full-stack-fastapi-template/pull/1877) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump @tanstack/react-router from 1.131.40 to 1.131.41 in /frontend. PR [#1875](https://github.com/fastapi/full-stack-fastapi-template/pull/1875) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump @tanstack/router-devtools from 1.131.36 to 1.131.37 in /frontend. PR [#1871](https://github.com/fastapi/full-stack-fastapi-template/pull/1871) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump @tanstack/router-plugin from 1.131.36 to 1.131.37 in /frontend. PR [#1870](https://github.com/fastapi/full-stack-fastapi-template/pull/1870) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump @tanstack/react-query from 5.87.1 to 5.87.4 in /frontend. PR [#1868](https://github.com/fastapi/full-stack-fastapi-template/pull/1868) by [@dependabot[bot]](https://github.com/apps/dependabot).
@@ -38,6 +44,7 @@
 
 ### Internal
 
+* 🔧 Update dependabot intervals for uv and npm dependencies to weekly. PR [#1880](https://github.com/fastapi/full-stack-fastapi-template/pull/1880) by [@alejsdev](https://github.com/alejsdev).
 * ⬆ Bump pydantic from 2.9.2 to 2.11.7 in /backend. PR [#1864](https://github.com/fastapi/full-stack-fastapi-template/pull/1864) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Update coverage configuration and simplify test script. PR [#1867](https://github.com/fastapi/full-stack-fastapi-template/pull/1867) by [@alejsdev](https://github.com/alejsdev).
 * 🔧 Add T201 rule to ruff linting configuration to disallow print statements. PR [#1865](https://github.com/fastapi/full-stack-fastapi-template/pull/1865) by [@alejsdev](https://github.com/alejsdev).
