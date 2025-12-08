@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Features
+
+* 🛂 Migrate frontend to Shadcn. PR [#2010](https://github.com/fastapi/full-stack-fastapi-template/pull/2010) by [@alejsdev](https://github.com/alejsdev).
+
 ### Fixes
 
 * 🐛 Fix `EMAILS_FROM_NAME` type to be `str` instead of `EmailStr`. PR [#1940](https://github.com/fastapi/full-stack-fastapi-template/pull/1940) by [@martin0258](https://github.com/martin0258).
@@ -54,6 +58,11 @@
 
 ### Internal
 
+* 🔧 Add Tailwind CSS directives support in biome config. PR [#2029](https://github.com/fastapi/full-stack-fastapi-template/pull/2029) by [@alejsdev](https://github.com/alejsdev).
+* ⬆ Bump react-hook-form from 7.66.1 to 7.67.0 in /frontend. PR [#2018](https://github.com/fastapi/full-stack-fastapi-template/pull/2018) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump @tanstack/react-query from 5.90.10 to 5.90.11 in /frontend. PR [#2019](https://github.com/fastapi/full-stack-fastapi-template/pull/2019) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump axios from 1.12.2 to 1.13.2 in /frontend. PR [#2020](https://github.com/fastapi/full-stack-fastapi-template/pull/2020) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump @tanstack/router-devtools from 1.139.3 to 1.139.12 in /frontend. PR [#2021](https://github.com/fastapi/full-stack-fastapi-template/pull/2021) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump playwright from v1.56.1-noble to v1.57.0-noble in /frontend. PR [#2016](https://github.com/fastapi/full-stack-fastapi-template/pull/2016) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆️ Update schema version in `biome.json`. PR [#2017](https://github.com/fastapi/full-stack-fastapi-template/pull/2017) by [@alejsdev](https://github.com/alejsdev).
 * ⬆ Bump vite from 7.2.2 to 7.2.6 in /frontend. PR [#2015](https://github.com/fastapi/full-stack-fastapi-template/pull/2015) by [@dependabot[bot]](https://github.com/apps/dependabot).
