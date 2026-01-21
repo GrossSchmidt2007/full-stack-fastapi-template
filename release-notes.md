@@ -4,6 +4,15 @@
 
 ### Internal
 
+* 🔧 Add tests scripts in `package.json`. PR [#2098](https://github.com/fastapi/full-stack-fastapi-template/pull/2098) by [@alejsdev](https://github.com/alejsdev).
+* 🔧 Migrate from npm to Bun. PR [#2097](https://github.com/fastapi/full-stack-fastapi-template/pull/2097) by [@alejsdev](https://github.com/alejsdev).
+* 🎨 Apply pre-commit fixes. PR [#2055](https://github.com/fastapi/full-stack-fastapi-template/pull/2055) by [@GniLudio](https://github.com/GniLudio).
+* 👷 Update pre-commit workflow. PR [#2096](https://github.com/fastapi/full-stack-fastapi-template/pull/2096) by [@alejsdev](https://github.com/alejsdev).
+* 🔧 Set up node monorepo. PR [#2095](https://github.com/fastapi/full-stack-fastapi-template/pull/2095) by [@alejsdev](https://github.com/alejsdev).
+* 🧑‍💻 Implement uv workspaces. PR [#2090](https://github.com/fastapi/full-stack-fastapi-template/pull/2090) by [@alejsdev](https://github.com/alejsdev).
+* 🔧 Update biome.json schema version. PR [#2092](https://github.com/fastapi/full-stack-fastapi-template/pull/2092) by [@alejsdev](https://github.com/alejsdev).
+* Revert "🔧 Update pre-commit-config.yaml ruff format to use --check". PR [#2091](https://github.com/fastapi/full-stack-fastapi-template/pull/2091) by [@alejsdev](https://github.com/alejsdev).
+* 🔧 Update pre-commit-config.yaml ruff format to use --check. PR [#2077](https://github.com/fastapi/full-stack-fastapi-template/pull/2077) by [@ryansydnor](https://github.com/ryansydnor).
 * ⬆ Bump actions/checkout from 5 to 6. PR [#2074](https://github.com/fastapi/full-stack-fastapi-template/pull/2074) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Add pre-commit workflow. PR [#2056](https://github.com/fastapi/full-stack-fastapi-template/pull/2056) by [@YuriiMotov](https://github.com/YuriiMotov).
 * ⬆ Bump @tanstack/router-devtools from 1.140.0 to 1.142.8 in /frontend. PR [#2060](https://github.com/fastapi/full-stack-fastapi-template/pull/2060) by [@dependabot[bot]](https://github.com/apps/dependabot).
