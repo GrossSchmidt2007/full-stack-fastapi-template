@@ -2,8 +2,38 @@
 
 ## Latest Changes
 
+### Fixes
+
+* 🐛 Handle non-existing user IDs in `read_user_by_id`. PR [#1396](https://github.com/fastapi/full-stack-fastapi-template/pull/1396) by [@saltie2193](https://github.com/saltie2193).
+
+### Refactors
+
+* 🔧 Update the frontend build context for prod with the new top level setup. PR [#2108](https://github.com/fastapi/full-stack-fastapi-template/pull/2108) by [@tiangolo](https://github.com/tiangolo).
+* 🚚 Rename Docker Compose files to new names, `compose.yml`. PR [#2106](https://github.com/fastapi/full-stack-fastapi-template/pull/2106) by [@tiangolo](https://github.com/tiangolo).
+* 🔒️ Ensure authentication takes constant time, to avoid enumeration attacks. PR [#2105](https://github.com/fastapi/full-stack-fastapi-template/pull/2105) by [@tiangolo](https://github.com/tiangolo).
+* ✨ Use pwdlib with Argon2 by default, adding logic (and tests) to autoupdate old passwords using Bcrypt. PR [#2104](https://github.com/fastapi/full-stack-fastapi-template/pull/2104) by [@tiangolo](https://github.com/tiangolo).
+* ✅ Fix incorrect mocking in unit tests (issue #1780). PR [#1781](https://github.com/fastapi/full-stack-fastapi-template/pull/1781) by [@vicaya](https://github.com/vicaya).
+* 🐛Update `items.py` to return status code `403` in case of insufficient permissions. PR [#1543](https://github.com/fastapi/full-stack-fastapi-template/pull/1543) by [@jpizquierdo](https://github.com/jpizquierdo).
+* ✅ Use proper `is_active` field in `test_user.py`. PR [#1479](https://github.com/fastapi/full-stack-fastapi-template/pull/1479) by [@nauanbek](https://github.com/nauanbek).
+* ♻️ Simplify reset password logic by removing duplicate code. PR [#1440](https://github.com/fastapi/full-stack-fastapi-template/pull/1440) by [@youneshenniwrites](https://github.com/youneshenniwrites).
+
+### Upgrades
+
+* ⬆ Bump postgres from 17 to 18. PR [#1910](https://github.com/fastapi/full-stack-fastapi-template/pull/1910) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump traefik from 3.0 to 3.6. PR [#1973](https://github.com/fastapi/full-stack-fastapi-template/pull/1973) by [@dependabot[bot]](https://github.com/apps/dependabot).
+
+### Docs
+
+* 📝 Update deployment docs. PR [#2109](https://github.com/fastapi/full-stack-fastapi-template/pull/2109) by [@tiangolo](https://github.com/tiangolo).
+
 ### Internal
 
+* 🔧 Add recommended VS Code extensions. PR [#1386](https://github.com/fastapi/full-stack-fastapi-template/pull/1386) by [@tobiase](https://github.com/tobiase).
+* 🎨 Format Python scripts tests. PR [#2112](https://github.com/fastapi/full-stack-fastapi-template/pull/2112) by [@tiangolo](https://github.com/tiangolo).
+* 🔨 Generate frontend SDK on pre-commit, remove custom workflow. PR [#2111](https://github.com/fastapi/full-stack-fastapi-template/pull/2111) by [@tiangolo](https://github.com/tiangolo).
+* 🔨 Update generate-client.sh and docs. PR [#2110](https://github.com/fastapi/full-stack-fastapi-template/pull/2110) by [@tiangolo](https://github.com/tiangolo).
+* 🔥 Remove old unused scripts. PR [#2107](https://github.com/fastapi/full-stack-fastapi-template/pull/2107) by [@tiangolo](https://github.com/tiangolo).
+* 👷 Add `maybe-ai` for issue manager. PR [#2103](https://github.com/fastapi/full-stack-fastapi-template/pull/2103) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Bump uv to 0.9.26 in Dockerfile. PR [#2102](https://github.com/fastapi/full-stack-fastapi-template/pull/2102) by [@alejsdev](https://github.com/alejsdev).
 * ⬆ Bump lucide-react from 0.556.0 to 0.562.0. PR [#2101](https://github.com/fastapi/full-stack-fastapi-template/pull/2101) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Update dependabot configuration for package ecosystems. PR [#2100](https://github.com/fastapi/full-stack-fastapi-template/pull/2100) by [@alejsdev](https://github.com/alejsdev).
