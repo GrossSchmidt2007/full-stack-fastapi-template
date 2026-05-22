@@ -18,6 +18,9 @@
 
 ### Internal
 
+* ⬆ Bump actions/add-to-project from 1.0.2 to 2.0.0. PR [#2273](https://github.com/fastapi/full-stack-fastapi-template/pull/2273) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump python-multipart from 0.0.21 to 0.0.27. PR [#2277](https://github.com/fastapi/full-stack-fastapi-template/pull/2277) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump idna from 3.11 to 3.15. PR [#2294](https://github.com/fastapi/full-stack-fastapi-template/pull/2294) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔒️ Only allow team members to modify dependencies. PR [#2292](https://github.com/fastapi/full-stack-fastapi-template/pull/2292) by [@svlandeg](https://github.com/svlandeg).
 * ⬆ Bump urllib3 from 2.6.3 to 2.7.0. PR [#2282](https://github.com/fastapi/full-stack-fastapi-template/pull/2282) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔒️ Add zizmor and fix audit findings. PR [#2260](https://github.com/fastapi/full-stack-fastapi-template/pull/2260) by [@YuriiMotov](https://github.com/YuriiMotov).
