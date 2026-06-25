@@ -19,6 +19,8 @@
 
 ### Internal
 
+* 👷 Simplify pull request workflow triggers. PR [#2349](https://github.com/fastapi/full-stack-fastapi-template/pull/2349) by [@tiangolo](https://github.com/tiangolo).
+* 👷 Update issue-manager to 0.7.1. PR [#2348](https://github.com/fastapi/full-stack-fastapi-template/pull/2348) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Update issue-manager to 0.7.0. PR [#2347](https://github.com/fastapi/full-stack-fastapi-template/pull/2347) by [@tiangolo](https://github.com/tiangolo).
 * 🔒️ Update zizmor workflow security checks. PR [#2345](https://github.com/fastapi/full-stack-fastapi-template/pull/2345) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add pre-commit hook to catch typos. PR [#2317](https://github.com/fastapi/full-stack-fastapi-template/pull/2317) by [@YuriiMotov](https://github.com/YuriiMotov).
