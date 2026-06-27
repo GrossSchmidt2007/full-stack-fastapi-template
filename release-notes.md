@@ -2,13 +2,20 @@
 
 ## Latest Changes
 
+### Features
+
+* 🔧 Use FastAPI entrypoint. PR [#2360](https://github.com/fastapi/full-stack-fastapi-template/pull/2360) by [@tiangolo](https://github.com/tiangolo).
+* ♻️ Add library-skills for FastAPI and SQLModel. PR [#2354](https://github.com/fastapi/full-stack-fastapi-template/pull/2354) by [@tiangolo](https://github.com/tiangolo).
+
 ### Refactors
 
+* ♻️ Refactor models to improve types. PR [#2356](https://github.com/fastapi/full-stack-fastapi-template/pull/2356) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Add FastAPI VS Code extension to recommended extensions. PR [#2206](https://github.com/fastapi/full-stack-fastapi-template/pull/2206) by [@tiangolo](https://github.com/tiangolo).
 * ♻️ Update meta titles. PR [#2179](https://github.com/fastapi/full-stack-fastapi-template/pull/2179) by [@alejsdev](https://github.com/alejsdev).
 
 ### Upgrades
 
+* ⬆️ Upgrade FastAPI version. PR [#2357](https://github.com/fastapi/full-stack-fastapi-template/pull/2357) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Upgrade Python to 3.14. PR [#2352](https://github.com/fastapi/full-stack-fastapi-template/pull/2352) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Upgrade Sentry and FastAPI. PR [#2181](https://github.com/fastapi/full-stack-fastapi-template/pull/2181) by [@patrick91](https://github.com/patrick91).
 
