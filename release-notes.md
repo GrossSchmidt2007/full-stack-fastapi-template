@@ -4,11 +4,28 @@
 
 ### Features
 
+* ✨ Add react-email for email templates. PR [#2421](https://github.com/fastapi/full-stack-fastapi-template/pull/2421) by [@alejsdev](https://github.com/alejsdev).
 * 🔧 Use FastAPI entrypoint. PR [#2360](https://github.com/fastapi/full-stack-fastapi-template/pull/2360) by [@tiangolo](https://github.com/tiangolo).
 * ♻️ Add library-skills for FastAPI and SQLModel. PR [#2354](https://github.com/fastapi/full-stack-fastapi-template/pull/2354) by [@tiangolo](https://github.com/tiangolo).
 
+### Fixes
+
+* ✅ Fix sign-up test race. PR [#2422](https://github.com/fastapi/full-stack-fastapi-template/pull/2422) by [@tiangolo](https://github.com/tiangolo).
+
 ### Refactors
 
+* ♻️ Remove Copier project generation. PR [#2430](https://github.com/fastapi/full-stack-fastapi-template/pull/2430) by [@tiangolo](https://github.com/tiangolo).
+* ♻️ Simplify CORS configuration. PR [#2429](https://github.com/fastapi/full-stack-fastapi-template/pull/2429) by [@tiangolo](https://github.com/tiangolo).
+* ♻️ Use `FASTAPI_ENV` for development. PR [#2427](https://github.com/fastapi/full-stack-fastapi-template/pull/2427) by [@tiangolo](https://github.com/tiangolo).
+* ♻️ Run database setup explicitly before startup, no need for prestart. PR [#2426](https://github.com/fastapi/full-stack-fastapi-template/pull/2426) by [@tiangolo](https://github.com/tiangolo).
+* ♻️ Require explicit SECRET_KEY. PR [#2425](https://github.com/fastapi/full-stack-fastapi-template/pull/2425) by [@tiangolo](https://github.com/tiangolo).
+* ♻️ Simplify uv workspace setup. PR [#2423](https://github.com/fastapi/full-stack-fastapi-template/pull/2423) by [@tiangolo](https://github.com/tiangolo).
+* ♻️ Use FastAPI entrypoint in Compose. PR [#2420](https://github.com/fastapi/full-stack-fastapi-template/pull/2420) by [@tiangolo](https://github.com/tiangolo).
+* ♻️ Require non-empty Compose configuration. PR [#2418](https://github.com/fastapi/full-stack-fastapi-template/pull/2418) by [@tiangolo](https://github.com/tiangolo).
+* ♻️ Simplify optional environment configuration. PR [#2417](https://github.com/fastapi/full-stack-fastapi-template/pull/2417) by [@tiangolo](https://github.com/tiangolo).
+* ♻️ Simplify Copier environment configuration. PR [#2416](https://github.com/fastapi/full-stack-fastapi-template/pull/2416) by [@tiangolo](https://github.com/tiangolo).
+* ♻️ Simplify environment defaults. PR [#2415](https://github.com/fastapi/full-stack-fastapi-template/pull/2415) by [@tiangolo](https://github.com/tiangolo).
+* ♻️ Simplify local development workflow. PR [#2414](https://github.com/fastapi/full-stack-fastapi-template/pull/2414) by [@tiangolo](https://github.com/tiangolo).
 * ♻️ Simplify environment configuration. PR [#2413](https://github.com/fastapi/full-stack-fastapi-template/pull/2413) by [@tiangolo](https://github.com/tiangolo).
 * ♻️ Simplify Traefik deployment, make it part of the stack. PR [#2412](https://github.com/fastapi/full-stack-fastapi-template/pull/2412) by [@tiangolo](https://github.com/tiangolo).
 * ♻️ Serve frontend from FastAPI. PR [#2393](https://github.com/fastapi/full-stack-fastapi-template/pull/2393) by [@tiangolo](https://github.com/tiangolo).
@@ -25,6 +42,8 @@
 
 ### Docs
 
+* 📝 Remove obsolete local domain setup. PR [#2428](https://github.com/fastapi/full-stack-fastapi-template/pull/2428) by [@tiangolo](https://github.com/tiangolo).
+* 📝 Clarify environment configuration. PR [#2419](https://github.com/fastapi/full-stack-fastapi-template/pull/2419) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Improve README screenshot alt text. PR [#2359](https://github.com/fastapi/full-stack-fastapi-template/pull/2359) by [@Bmowville](https://github.com/Bmowville).
 * ✏️ Fix typo in the comment for DOMAIN in the .env file. PR [#2305](https://github.com/fastapi/full-stack-fastapi-template/pull/2305) by [@serhiiur](https://github.com/serhiiur).
 * 📝 Update security policy. PR [#2297](https://github.com/fastapi/full-stack-fastapi-template/pull/2297) by [@tiangolo](https://github.com/tiangolo).
@@ -32,6 +51,7 @@
 
 ### Internal
 
+* 👷 Remove legacy label check. PR [#2424](https://github.com/fastapi/full-stack-fastapi-template/pull/2424) by [@tiangolo](https://github.com/tiangolo).
 * 🔐 Use PR Submit for pull requests. PR [#2411](https://github.com/fastapi/full-stack-fastapi-template/pull/2411) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Use GitHub CLI for Git authentication. PR [#2410](https://github.com/fastapi/full-stack-fastapi-template/pull/2410) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Use PR Push commit identity. PR [#2409](https://github.com/fastapi/full-stack-fastapi-template/pull/2409) by [@tiangolo](https://github.com/tiangolo).

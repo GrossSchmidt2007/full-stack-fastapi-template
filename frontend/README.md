@@ -15,7 +15,9 @@ bun run dev
 
 * Then open your browser at http://localhost:5173/.
 
-Notice that this live server is not running inside Docker, it's for local development, and that is the recommended workflow. Once you are happy with your frontend, you can build the backend Docker image and start it, to test the production-like setup where FastAPI serves the built frontend at `http://localhost:8000`.
+Run `uv run bash scripts/prestart.sh` and `uv run fastapi dev` from the `backend` directory, with PostgreSQL running in Docker Compose. See [../development.md](../development.md) for the complete setup.
+
+To serve the frontend with FastAPI, run `bun run build` from the `frontend` directory and open `http://localhost:8000`.
 
 Check the file `package.json` to see other available options.
 
@@ -33,19 +35,10 @@ If you are developing an API-only app and want to remove the frontend, you can d
 
 Done, you have a frontend-less (api-only) app. 🤓
 
----
-
-If you want, you can also remove the `FRONTEND_HOST` environment variable from:
-
-* `.env`
-
-But it would be only to clean them up, leaving them won't really have any effect either way.
-
 ## Generate Client
 
 ### Automatically
 
-* Activate the backend virtual environment.
 * From the top level project directory, run the script:
 
 ```bash
@@ -56,9 +49,9 @@ bash ./scripts/generate-client.sh
 
 ### Manually
 
-* Start the Docker Compose stack.
+* Make sure the backend is running.
 
-* Download the OpenAPI JSON file from `http://localhost/api/v1/openapi.json` and copy it to a new file `openapi.json` at the root of the `frontend` directory.
+* Download the OpenAPI JSON file from `http://localhost:8000/api/v1/openapi.json` and copy it to a new file `openapi.json` at the root of the `frontend` directory.
 
 * To generate the frontend client, run:
 
@@ -96,6 +89,7 @@ The frontend code is structured as follows:
 The frontend includes initial end-to-end tests using Playwright. To run the tests, you need to have the Docker Compose stack running. Start the stack with the following command:
 
 ```bash
+docker compose run --rm backend bash scripts/prestart.sh
 docker compose up -d --wait backend
 ```
 
