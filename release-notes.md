@@ -4,6 +4,23 @@
 
 ### Features
 
+* ☁️ Add FastAPI Cloud deployment. PR [#2438](https://github.com/fastapi/full-stack-fastapi-template/pull/2438) by [@tiangolo](https://github.com/tiangolo).
+
+## 0.11.1 (2026-08-11)
+
+### Refactors
+
+* ♻️ Simplify Docker Compose deployment. PR [#2435](https://github.com/fastapi/full-stack-fastapi-template/pull/2435) by [@tiangolo](https://github.com/tiangolo).
+* ♻️ Migrate to `DATABASE_URL` instead of separate variables. PR [#2184](https://github.com/fastapi/full-stack-fastapi-template/pull/2184) by [@patrick91](https://github.com/patrick91).
+
+### Internal
+
+* ⬆ Bump the npm-packages group across 1 directory with 33 updates. PR [#2433](https://github.com/fastapi/full-stack-fastapi-template/pull/2433) by [@dependabot[bot]](https://github.com/apps/dependabot).
+
+## 0.11.0 (2026-08-11)
+
+### Features
+
 * ✨ Add react-email for email templates. PR [#2421](https://github.com/fastapi/full-stack-fastapi-template/pull/2421) by [@alejsdev](https://github.com/alejsdev).
 * 🔧 Use FastAPI entrypoint. PR [#2360](https://github.com/fastapi/full-stack-fastapi-template/pull/2360) by [@tiangolo](https://github.com/tiangolo).
 * ♻️ Add library-skills for FastAPI and SQLModel. PR [#2354](https://github.com/fastapi/full-stack-fastapi-template/pull/2354) by [@tiangolo](https://github.com/tiangolo).
@@ -51,6 +68,7 @@
 
 ### Internal
 
+* 👷 Add release automation. PR [#2431](https://github.com/fastapi/full-stack-fastapi-template/pull/2431) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Remove legacy label check. PR [#2424](https://github.com/fastapi/full-stack-fastapi-template/pull/2424) by [@tiangolo](https://github.com/tiangolo).
 * 🔐 Use PR Submit for pull requests. PR [#2411](https://github.com/fastapi/full-stack-fastapi-template/pull/2411) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Use GitHub CLI for Git authentication. PR [#2410](https://github.com/fastapi/full-stack-fastapi-template/pull/2410) by [@tiangolo](https://github.com/tiangolo).
