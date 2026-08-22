@@ -4,14 +4,18 @@
 
 ### Fixes
 
+* 🐛 Fix Sonner toast theme sync. PR [#2450](https://github.com/fastapi/full-stack-fastapi-template/pull/2450) by [@chris-bs23](https://github.com/chris-bs23).
 * 🐛 Add background to the sticky layout header. PR [#2384](https://github.com/fastapi/full-stack-fastapi-template/pull/2384) by [@istoutjesdijk](https://github.com/istoutjesdijk).
 
 ### Refactors
 
+* ✅ Simplify password reset E2E tests. PR [#2453](https://github.com/fastapi/full-stack-fastapi-template/pull/2453) by [@alejsdev](https://github.com/alejsdev).
+* 💄 Refactor email templates and components for improved styling. PR [#2451](https://github.com/fastapi/full-stack-fastapi-template/pull/2451) by [@alejsdev](https://github.com/alejsdev).
 * ♻️ Replace Mailcatcher with Mailpit for local email testing. PR [#2436](https://github.com/fastapi/full-stack-fastapi-template/pull/2436) by [@alejsdev](https://github.com/alejsdev).
 
 ### Docs
 
+* 📝 Update README.md with Mailpit and React Email. PR [#2452](https://github.com/fastapi/full-stack-fastapi-template/pull/2452) by [@alejsdev](https://github.com/alejsdev).
 * 📝 Simplify project documentation. PR [#2442](https://github.com/fastapi/full-stack-fastapi-template/pull/2442) by [@tiangolo](https://github.com/tiangolo).
 
 ## 0.12.0 (2026-08-12)
