@@ -9,6 +9,7 @@
 
 ### Refactors
 
+* ♻️ Simplify database readiness checks. PR [#2460](https://github.com/fastapi/full-stack-fastapi-template/pull/2460) by [@tiangolo](https://github.com/tiangolo).
 * ✅ Simplify password reset E2E tests. PR [#2453](https://github.com/fastapi/full-stack-fastapi-template/pull/2453) by [@alejsdev](https://github.com/alejsdev).
 * 💄 Refactor email templates and components for improved styling. PR [#2451](https://github.com/fastapi/full-stack-fastapi-template/pull/2451) by [@alejsdev](https://github.com/alejsdev).
 * ♻️ Replace Mailcatcher with Mailpit for local email testing. PR [#2436](https://github.com/fastapi/full-stack-fastapi-template/pull/2436) by [@alejsdev](https://github.com/alejsdev).
@@ -20,6 +21,7 @@
 
 ### Internal
 
+* ⬆️ Bump Typer min version to `0.26.1`. PR [#2459](https://github.com/fastapi/full-stack-fastapi-template/pull/2459) by [@YuriiMotov](https://github.com/YuriiMotov).
 * ⬆️ Bump setup-uv action to 10.0.1. PR [#2458](https://github.com/fastapi/full-stack-fastapi-template/pull/2458) by [@YuriiMotov](https://github.com/YuriiMotov).
 
 ## 0.12.0 (2026-08-12)
